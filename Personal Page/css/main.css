@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: "open Sans",sans-serif;
+}
+
+/* Navbar Section */
+
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    height: 70px;
+    
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: rgb(236, 128, 128);
+    border-radius: 8px;
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid grey; 
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    padding-top: 1.5rem;
+}
+#home .name h2{
+    margin-bottom: 0.5rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+    margin: 0.2rem;
+    padding: 0.3rem;
+} 
+#home a{
+    margin-top: 1.3rem;
+    background: hotpink;
+    padding: 0.8rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+#home a:hover{
+    color: deeppink;
+    background:white;
+    border: 0.5px solid black;
+}
+
+/*Computer Skill Box*/
+
+#computer{
+    box-sizing: border-box;
+}
+
+.box{
+    width: 90%;
+    background-color: #ddd;
+}
+.skills {
+    text-align:left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.java {width: 75%; background-color: #e7a33d;}
+.dart {width: 60%; background-color: #3377af;}
+.python {width: 55%; background-color: #a0d648;}
+.c {width: 30%; background-color: #d61fd6;}
+.js {width: 30%; background-color: #f44336;}
+.sql {width: 60%; background-color: #27d6d6;}
+
+/* project */
+
+#project{
+    color: #333;
+    padding: 1rem;
+}
+.works{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.works .work{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.works .work .work-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.works .work .work-image img{
+border-radius: 5px;
+}
+.works .work .work-image span{
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.works .work .work-info .title{
+    margin-top: 0.25rem;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+/*
+.works .work .work-info .description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+*/
+.works .work .work-info .instructor{
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.works .work .work-info .rating{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+/* contact */
+
+#contact{
+    height: 30rem;
+    color: white;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a{
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+   opacity: 0.6;
+}
